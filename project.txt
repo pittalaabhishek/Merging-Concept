@@ -1,8 +1,5 @@
 Hello!
 This project has been created to clear merging concept!!
 
-<<<<<<< .merge_file_vJ4uOG
 This is the update coming from Test 1!
-=======
 This is the change coming from Test 2 branch!Happy Coding!!
->>>>>>> .merge_file_sBEQT8

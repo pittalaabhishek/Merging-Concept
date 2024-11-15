@@ -55,3 +55,5 @@ GITIGNORE FUNCTIONALITY:
    [This prevented all the js files in main directory as well as subdirectories from being pushed to git]
 2. Added .gitignore in subdirectory then it ignored only .js files present in the subdirectory and rest .js files were pushed to    
    the  remote repository.
+3. You can also put the .gitignore file anywhere in the repository and add relative paths of the files to be prevented from pushing 
+   to remote repository.

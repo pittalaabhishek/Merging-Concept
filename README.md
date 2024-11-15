@@ -35,8 +35,15 @@ echo "I am a post commit hook"
 
 
 CHERRY-PICKING:
+
 1. created a c1 branch from main branch.
 2. created a c2 branch from c1 branch.
 3. Made necessary changes in c2 branch and committed.
 4. On main branch I cherry picked the commit done by c2 branch. => git cherry-pick <commit-hash of c2>
 
+
+INTERACTIVE REBASING:
+
+1. git rebase -i <commit-hash> 
+2. replacing pick with reword to change the commit message of a command.
+3. pressing escape->:wq->enter to save and exit the vim editor.

@@ -47,3 +47,11 @@ INTERACTIVE REBASING:
 1. git rebase -i <commit-hash> 
 2. replacing pick with reword to change the commit message of a command.
 3. pressing escape->:wq->enter to save and exit the vim editor.
+
+
+GITIGNORE FUNCTIONALITY:
+
+1. I have added .gitignore file outside every subdirectory and inside the main directory.(added all js files using [*.js])
+   [This prevented all the js files in main directory as well as subdirectories from being pushed to git]
+2. Added .gitignore in subdirectory then it ignored only .js files present in the subdirectory and rest .js files were pushed to    
+   the  remote repository.
